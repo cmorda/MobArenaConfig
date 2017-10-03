@@ -3,12 +3,12 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276, 46:5, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1
+    items: 276, 46:64, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:20, 442
     armor: 306,311,308,309
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -18,17 +18,17 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Archer:
-    items: 276, 261, 262:384, 46:3, 364:10, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1, 442
+    items: 276, 261, 262:384, 46:3, 364:10, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1
     armor: 302,307,308,305
     unbreakable-weapons: true
     unbreakable-armor: true
   Chemist:
-    items: 276, 46:2, 364:10, 373:8194:2, 373:8259:2, 373:16428:4, 373:16421:2, 373:16425:1, 373:16420:1, 373:16417:2
+    items: 276, 46:2, 364:10, 373:8194:2, 373:8259:2, 373:16428:4, 373:16421:2, 373:16425:1, 373:16420:1, 373:16417:2, 335:10
     armor: 306,303,304,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Oddjob:
-    items: bone:2, 293, 322:4, 332:64, 46:16, 373:8194:3, 434:64, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 346, 442, 280 19:15;16:1
+    items: bone:2, 293, 322:4, 332:64, 46:16, 373:8194:3, 434:64, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 346, 442, 280 19:15;16:1, 335:5
     armor: 298,307,300,313
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -43,7 +43,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
-    items: 267, 364:25, 373:16389:11, 373:16449:2, 442, bone:1
+    items: 267, 364:25, 373:16389:11, 373:16449:2, 442, bone:1, 335:8
     armor: 314,315,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -368,7 +368,7 @@ arenas:
           priority: 5
           frequency: 5
           monster: magmacube
-          amount: medium
+          amount: high
         up1:
           type: upgrade
           priority: 10
@@ -431,7 +431,7 @@ arenas:
         boss3:
           type: boss
           wave: 30
-          monster: irongolem
+          monster: witch
           health: medium
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
           reward: '42'
@@ -603,7 +603,7 @@ arenas:
         -197,28,-128: -196.5,28,-127.5,0.0,0.0,pvp
         -183,28,-127: -182.5,28,-126.5,0.0,0.0,pvp
       containers: {}
-      p1: -222,24,-173,0.0,0.0,pvp
+      p1: -158,52,-123,0.0,0.0,pvp
       p2: -222,24,-173,0.0,0.0,pvp
       l1: -211,26,-184,0.0,0.0,pvp
       l2: -187,32,-175,0.0,0.0,pvp
