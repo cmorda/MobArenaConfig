@@ -305,7 +305,7 @@ arenas:
       use-scoreboards: true
       isolated-chat: false
       global-join-announce: true
-      global-end-announce: false
+      global-end-announce: true
       show-death-messages: true
       prefix: ''
       default-class: ''
@@ -338,6 +338,7 @@ arenas:
             witch: 5
             zombie: 10
             magmacubesmall: 10
+            slimesmall: 10
         spec1:
           type: special
           priority: 3
@@ -356,35 +357,33 @@ arenas:
             ghast: 10
             killerbunny: 10
             witch: 10
-        supply1:
-          type: supply
-          priority: 10
-          frequency: 11
-          monsters:
-            cows: 10
-            pig: 10
-            horse: 10
-            mushroomcow: 10
-            sheep: 10
-          drops: 262:64, 364:16, 320:16
         swarm1:
           type: swarm
           priority: 5
           frequency: 5
           monster: slime
           amount: medium
+        swarm2:
+          type: swarm
+          priority: 5
+          frequency: 5
+          monster: magmacube
+          amount: medium
         up1:
           type: upgrade
           priority: 10
           frequency: 25
           upgrades:
-            all: 21860
+            all: 464:16
             Archer: 262:128
             Assassin: 262:128
-            Chemist: 2764
-            Knight: 2770
+            Chemist: 46:2
+            Knight: 46:25
             Oddjob: 46:32, 332:32
             Healer: 373:16389:4
+            Tank: 373:8233, 373:8257
+            Beastmaster: bone:5
+            give-all-items: true
       single:
         boss1:
           type: boss
@@ -392,6 +391,16 @@ arenas:
           monster: cave_spider
           health: verylow
           abilities: arrows, root-target, throw-nearby
+        supply1:
+          type: supply
+          wave: 11
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:64, 364:16, 320:16, 322:4
         boss2:
           type: boss
           wave: 20
@@ -400,6 +409,25 @@ arenas:
           abilities: fire-aura, throw-nearby
           potions: speed
           reward: '369:2'
+        up2:
+          type: upgrade
+          wave: 21
+          upgrades:
+            all: 364:16
+            Archer: 261 48:1;49:1, 262:64
+            Tank:
+              armor: 310
+              items: 264 17:1
+            Assassin
+              armor: 302
+              items: 262:64
+            Chemist: 276 17:1
+            Beastmaster: 276 17:1
+            Oddjob:
+              armor: 302, 303
+            Knight: 276 17:1
+            Healer: 261, 262:128
+          give-all-items: true
         boss3:
           type: boss
           wave: 30
@@ -407,6 +435,16 @@ arenas:
           health: medium
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
           reward: '42'
+        supply3:
+          type: supply
+          wave: 31
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:64, 364:16, 320:16, 322:4
         boss4:
           type: boss
           wave: 40
@@ -414,6 +452,16 @@ arenas:
           health: low
           abilities: fire-aura, throw-nearby, fireballs, root-target
           reward: '370:5'
+        supply4:
+          type: supply
+          wave: 41
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:64, 364:16, 320:16, 322:4
         boss5:
           type: boss
           wave: 50
@@ -421,6 +469,21 @@ arenas:
           health: high
           abilities: arrows, pull-nearby, obsidian-bomb
           reward: '311'
+        up3:
+          type: upgrade
+          wave: 51
+          upgrades:
+            all: 364:18
+            Archer: 262:128, 261 48:2;49:1;50:1
+            Assassin: 261 48:1;49:1, 262:128
+            Tank:
+              armor: 311 0:3
+            Knight: 64:32, 276 17:2;19:1
+            Beastmaster: 276 17:2;19:1
+            Healer: 276
+            Chemist: 276 17:2;19:1
+            Oddjob: 313 2:1;1:1;3:1;4:1
+          give-all-items: true
         boss6:
           type: boss
           wave: 60
@@ -428,6 +491,16 @@ arenas:
           health: high
           abilities: flood, arrows, throw-target, disorient-target, fireballs
           reward: '322'
+        supply6:
+          type: supply
+          wave: 61
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:128, 364:20, 320:20, 322:5
         boss7:
           type: boss
           wave: 70
@@ -435,6 +508,16 @@ arenas:
           health: high
           abilities: arrows, fireballs, throw-nearby, lightning-aura
           reward: '322:1'
+        supply7:
+          type: supply
+          wave: 71
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:192, 364:32, 320:32, 322:5
         boss8:
           type: boss
           wave: 80
@@ -442,6 +525,20 @@ arenas:
           health: veryhigh
           abilities: chain-lightning, warp-to-player, shuffle-positions
           reward: 283:5, 41
+        up4:
+          type: upgrade
+          wave: 81
+          upgrades:
+            all: 364:32
+            Archer: 262:200, 261 48:3;49:1;50:1;51:1
+            Assassin: 261 48:2;49:1;50:1, 262:200
+            Tank: 
+              armor: 310 0:1, 312 0:1, 313 0:1
+            Knight: 276 17:3;19:1;20:1
+            Chemist: 276 17:3;19:1;20:1
+            Beastmaster: 276 17:3;19:1;20:1
+            Healer: 276 17:2, 261 48:2, 262:300
+            Oddjob: 332:640
         boss9:
           type: boss
           wave: 90
@@ -449,6 +546,16 @@ arenas:
           health: veryhigh
           abilities: warp-to-player, fetch-distant, pull-distant, living-bomb
           reward: 368:64
+        supply9:
+          type: supply
+          wave: 91
+          monsters:
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:384, 364:64, 320:64, 322:20
         boss10:
           type: boss
           wave: 100
