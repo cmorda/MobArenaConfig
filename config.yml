@@ -418,7 +418,7 @@ arenas:
             Tank:
               armor: 310
               items: 264 17:1
-            Assassin
+            Assassin:
               armor: 302
               items: 262:64
             Chemist: 276 17:1
