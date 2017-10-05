@@ -3,17 +3,17 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276, 46:64, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:20, 442
+    items: 276, 46:64, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:15, 442
     armor: 306,311,308,309
     unbreakable-weapons: true
     unbreakable-armor: true
   Tank:
-    items: 279, 364:13, 373:8257:1, 373:8233:2, 373:8259:2, 373:16425:9, 373:16457:1, 442
+    items: 279, 364:13, 373:8257:1, 373:8233:2, 373:8259:2, 373:16425:9, 373:16457:1, 442, 335:1
     armor: 306,311,312,313
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -43,7 +43,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
-    items: 267, 364:25, 373:16389:11, 373:16449:2, 442, bone:1, 335:8
+    items: 267, 364:25, 373:16389:11, 373:16449:2, 442, bone:1, 335:20
     armor: 314,315,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -329,7 +329,7 @@ arenas:
             zombies: 30
             powered-creepers: 2
             skeleton: 10
-            blaze: 5
+            blaze: 10
         def3:
           type: default
           priority: 2
@@ -339,6 +339,7 @@ arenas:
             zombie: 10
             magmacubesmall: 10
             slimesmall: 10
+            explodingsheep: 3
         spec1:
           type: special
           priority: 3
@@ -353,16 +354,16 @@ arenas:
           priority: 4
           frequency: 8
           monsters:
-            explodingsheep: 10
+            cave_spider: 10
             ghast: 10
             killerbunny: 10
             witch: 10
         swarm1:
           type: swarm
-          priority: 5
-          frequency: 5
+          priority: 6
+          frequency: 14
           monster: slime
-          amount: medium
+          amount: high
         swarm2:
           type: swarm
           priority: 5
@@ -391,6 +392,7 @@ arenas:
           monster: cave_spider
           health: verylow
           abilities: arrows, root-target, throw-nearby
+          drops: '335:5'
         supply1:
           type: supply
           wave: 11
@@ -407,8 +409,9 @@ arenas:
           monster: blaze
           health: low
           abilities: fire-aura, throw-nearby
-          potions: speed
+          potions: speed:2
           reward: '369:2'
+          ability-interval: 2
         up2:
           type: upgrade
           wave: 21
@@ -432,9 +435,10 @@ arenas:
           type: boss
           wave: 30
           monster: witch
-          health: medium
+          health: verylow
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
           reward: '42'
+          drops: '335:5'
         supply3:
           type: supply
           wave: 31
@@ -448,9 +452,9 @@ arenas:
         boss4:
           type: boss
           wave: 40
-          monster: ghast
-          health: low
-          abilities: fire-aura, throw-nearby, fireballs, root-target
+          monster: silverfish
+          health: high
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant
           reward: '370:5'
         supply4:
           type: supply
@@ -544,7 +548,8 @@ arenas:
           wave: 90
           monster: enderman
           health: veryhigh
-          abilities: warp-to-player, fetch-distant, pull-distant, living-bomb
+          abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
+          potions: slow:1
           reward: 368:64
         supply9:
           type: supply
