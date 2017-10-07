@@ -625,3 +625,138 @@ arenas:
       Assassin: -1
       Beastmaster: -1
       Healer: -1
+  ma2:
+    settings:
+      prefix: ''
+      world: pvp
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, storage_minecart, powered_minecart
+          '13': iron_sword, iron_pickaxe, iron_spade
+          '16': diamond_sword
+    coords:
+      spawnpoints:
+        -207,42,-292: -206.5,42,-291.5,0.0,0.0,pvp
+        -198,38,-297: -197.5,38,-296.5,0.0,0.0,pvp
+        -188,38,-295: -187.5,38,-294.5,0.0,0.0,pvp
+        -180,38,-298: -179.5,38,-297.5,0.0,0.0,pvp
+        -168,38,-298: -167.5,38,-297.5,0.0,0.0,pvp
+        -156,38,-297: -155.5,38,-296.5,0.0,0.0,pvp
+        -152,38,-289: -151.5,38,-288.5,0.0,0.0,pvp
+        -166,38,-288: -165.5,38,-287.5,0.0,0.0,pvp
+        -178,38,-289: -177.5,38,-288.5,0.0,0.0,pvp
+        -189,38,-287: -188.5,38,-286.5,0.0,0.0,pvp
+        -196,38,-284: -195.5,38,-283.5,0.0,0.0,pvp
+        -204,38,-278: -203.5,38,-277.5,0.0,0.0,pvp
+        -203,38,-267: -202.5,38,-266.5,0.0,0.0,pvp
+        -193,40,-271: -192.5,40,-270.5,0.0,0.0,pvp
+        -182,41,-270: -181.5,41,-269.5,0.0,0.0,pvp
+        -172,38,-274: -171.5,38,-273.5,0.0,0.0,pvp
+        -157,40,-275: -156.5,40,-274.5,0.0,0.0,pvp
+        -162,39,-265: -161.5,39,-264.5,0.0,0.0,pvp
+        -171,38,-264: -170.5,38,-263.5,0.0,0.0,pvp
+        -180,38,-263: -179.5,38,-262.5,0.0,0.0,pvp
+        -188,38,-263: -187.5,38,-262.5,0.0,0.0,pvp
+        -195,38,-261: -194.5,38,-260.5,0.0,0.0,pvp
+        -195,40,-256: -194.5,40,-255.5,0.0,0.0,pvp
+        -185,40,-255: -184.5,40,-254.5,0.0,0.0,pvp
+        -177,41,-281: -176.5,41,-280.5,0.0,0.0,pvp
+      containers: {}
+      l1: -199,38,-312,0.0,0.0,pvp
+      l2: -175,45,-303,0.0,0.0,pvp
+      p2: -145,65,-251,0.0,0.0,pvp
+      p1: -210,36,-301,0.0,0.0,pvp
+      exit: 0.5,116,0.5,-269.97,0.0,ASkyBlock
+      lobby: -179.5,38,-307.5,-179.1,0.0,pvp
+      spectator: -158.5,47,-304.5,-1.8,0.0,pvp
+      arena: -183.5,44,-274.5,92.55,0.0,pvp
+    class-limits:
+      Healer: -1
+      Oddjob: -1
+      Knight: -1
+      Archer: -1
+      Beastmaster: -1
+      My Items: -1
+      Tank: -1
+      Assassin: -1
+      Chemist: -1
