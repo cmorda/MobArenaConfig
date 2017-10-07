@@ -3,13 +3,13 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /killall
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
   Knight:
     items: 276, 46:64, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:15, 442
-    armor: 306,311,308,309
+    armor: 306 3:2,311 3:1,308 3:2,309 3:2
     unbreakable-weapons: true
     unbreakable-armor: true
   Tank:
@@ -39,7 +39,7 @@ classes:
     unbreakable-armor: true
   Assassin:
     items: 276, 261, 262:64, 46:10, 364:10, 373:8265:1, 373:8226:4, 373:8206:1, 373:16428:4, 373:8259:1
-    armor: 298,303,304,305
+    armor: 298,303 7:3,304 7:3,305 7:3
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
@@ -375,15 +375,14 @@ arenas:
           priority: 10
           frequency: 25
           upgrades:
-            all: 21850
-            Archer: 262:128
-            Assassin: 262:128
-            Chemist: 2762
-            Knight: 2785
-            Oddjob: 46:32, 332:32
-            Healer: 373:16389:4
-            Tank: 373:8233, 373:8257
-            Beastmaster: bone:5
+            Archer: 262:128, 364:10
+            Assassin: 262:128, 364:10
+            Chemist: 373:16428:10, 373:8226, 364:10
+            Knight: 46:64, 364:10
+            Oddjob: 46:32, 332:32, 364:10
+            Healer: 373:16389:5, 364:10
+            Tank: 373:8233, 373:8257, 364:10
+            Beastmaster: bone:5, 364:10
             give-all-items: true
       single:
         boss1:
@@ -418,16 +417,16 @@ arenas:
           upgrades:
             Archer: 261 48:1;49:1, 262:64, 364:16
             Tank:
-              armor: 310
-              items: 264 17:1, 364:16
+              armor: 310 7:1, 313 0:1
+              items: 279 17:1, 364:16
             Assassin:
-              armor: 302
+              armor: 302 7:5
               items: 262:64, 364:16
             Chemist: 276 17:1, 364:16
             Beastmaster: 276 17:1, 364:16
             Oddjob:
-              armor: 302, 303
-              items: 21856
+              armor: 302, 304
+              items: 280 17:1;19:15;20:1, 364:16
             Knight: 276 17:1, 364:16
             Healer: 261, 262:128, 364:16
           give-all-items: true
@@ -480,8 +479,8 @@ arenas:
             Archer: 262:128, 261 48:2;49:1;50:1, 364:18
             Assassin: 261 48:1;49:1, 262:128, 364:18
             Tank:
-              armor: 311 0:3
-              items: 21858
+              armor: 311 0:3;7:4, 312 0:2
+              items: 279 17:2;19:1, 364:18
             Knight: 64:32, 276 17:2;19:1, 364:18
             Beastmaster: 276 17:2;19:1, 364:18
             Healer: 276, 364:18
@@ -536,13 +535,13 @@ arenas:
             Archer: 262:200, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin: 261 48:2;49:1;50:1, 262:200, 364:32
             Tank:
-              armor: 310 0:1, 312 0:1, 313 0:1
-              items: 21872
+              armor: 310 0:3;7:2, 312 0:3, 313 0:3
+              items: 279 17:4;19:1, 364:32
             Knight: 276 17:3;19:1;20:1, 364:32
             Chemist: 276 17:3;19:1;20:1, 364:32
             Beastmaster: 276 17:3;19:1;20:1, 364:32
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
-            Oddjob: 332:640, 364:32
+            Oddjob: 332:640, 322:1:2, 364:32
         boss9:
           type: boss
           wave: 90
@@ -576,7 +575,7 @@ arenas:
           '10': iron_ingot:5, gold_ingot:4
           '20': '264:2'
         after:
-          '7': '351:4:3'
+          '7': '351:4:8'
           '15': '388:5'
           '30': '57'
           '50': '443'
@@ -737,15 +736,14 @@ arenas:
           priority: 10
           frequency: 25
           upgrades:
-            all: 21850
-            Archer: 262:128
-            Assassin: 262:128
-            Chemist: 2762
-            Knight: 2785
-            Oddjob: 46:32, 332:32
-            Healer: 373:16389:4
-            Tank: 373:8233, 373:8257
-            Beastmaster: bone:5
+            Archer: 262:128, 364:10
+            Assassin: 262:128, 364:10
+            Chemist: 373:16428:10, 373:8226, 364:10
+            Knight: 46:64, 364:10
+            Oddjob: 46:32, 332:32, 364:10
+            Healer: 373:16389:5, 364:10
+            Tank: 373:8233, 373:8257, 364:10
+            Beastmaster: bone:5, 364:10
             give-all-items: true
       single:
         boss1:
@@ -780,16 +778,16 @@ arenas:
           upgrades:
             Archer: 261 48:1;49:1, 262:64, 364:16
             Tank:
-              armor: 310
-              items: 264 17:1, 364:16
+              armor: 310 7:1, 313 0:1
+              items: 279 17:1, 364:16
             Assassin:
-              armor: 302
+              armor: 302 7:5
               items: 262:64, 364:16
             Chemist: 276 17:1, 364:16
             Beastmaster: 276 17:1, 364:16
             Oddjob:
-              armor: 302, 303
-              items: 280 17:1;19:15;20:1
+              armor: 302, 304
+              items: 280 17:1;19:15;20:1, 364:16
             Knight: 276 17:1, 364:16
             Healer: 261, 262:128, 364:16
           give-all-items: true
@@ -842,8 +840,8 @@ arenas:
             Archer: 262:128, 261 48:2;49:1;50:1, 364:18
             Assassin: 261 48:1;49:1, 262:128, 364:18
             Tank:
-              armor: 311 0:3
-              items: 21858
+              armor: 311 0:3;7:4, 312 0:2
+              items: 279 17:2;19:1, 364:18
             Knight: 64:32, 276 17:2;19:1, 364:18
             Beastmaster: 276 17:2;19:1, 364:18
             Healer: 276, 364:18
@@ -898,13 +896,13 @@ arenas:
             Archer: 262:200, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin: 261 48:2;49:1;50:1, 262:200, 364:32
             Tank:
-              armor: 310 0:1, 312 0:1, 313 0:1
-              items: 21872
+              armor: 310 0:3;7:2, 312 0:3;7:1, 313 0:3
+              items: 279 17:4;19:1, 364:32
             Knight: 276 17:3;19:1;20:1, 364:32
             Chemist: 276 17:3;19:1;20:1, 364:32
             Beastmaster: 276 17:3;19:1;20:1, 364:32
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
-            Oddjob: 332:640, 364:32
+            Oddjob: 332:640, 322:1:2, 364:32
         boss9:
           type: boss
           wave: 90
@@ -938,7 +936,7 @@ arenas:
           '10': iron_ingot:5, gold_ingot:4
           '20': '264:2'
         after:
-          '7': '351:4:3'
+          '7': '351:4:8'
           '15': '388:5'
           '30': '57'
           '50': '443'
