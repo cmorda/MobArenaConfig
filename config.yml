@@ -8,42 +8,42 @@ global-settings:
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276, 46:64, 364:13, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:15, 442
+    items: 276, 46:64, 364:14, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:5, 442, 170:9
     armor: 306 3:2,311 3:1,308 3:2,309 3:2
     unbreakable-weapons: true
     unbreakable-armor: true
   Tank:
-    items: 279, 364:13, 373:8257:1, 373:8233:2, 373:8259:2, 373:16425:9, 373:16457:1, 442, 335:1
+    items: 279, 364:14, 373:8257:1, 373:8233:5, 373:8259:2, 373:16425:15, 442, 335:5, 322:2:4
     armor: 306,311,312,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Archer:
-    items: 276, 261, 262:384, 46:3, 364:10, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1
+    items: 276, 261, 46:3, 364:11, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1, 262:384
     armor: 302,307,308,305
     unbreakable-weapons: true
     unbreakable-armor: true
   Chemist:
-    items: 276, 46:2, 364:10, 373:8194:2, 373:8259:2, 373:16428:4, 373:16421:2, 373:16425:1, 373:16420:1, 373:16417:2, 335:10
+    items: 276, 46:12, 364:17, 335:10, 373:8233:3, 373:8229:3, 373:8258:4, 373:8259:3, 373:8198:1, 373:16417:3, 373:16426:20, 373:16428:10, 373:16421:2, 373:16452:10, 373:16392:5, 322:5 
     armor: 306,303,304,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Oddjob:
-    items: bone:2, 293, 322:4, 332:64, 46:16, 373:8194:3, 434:64, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 346, 442, 280 19:15;16:1, 335:5
-    armor: 298,307,300,313
+    items: bone:2, 293, 322:4, 332:64, 46:16, 373:8194:3, 434:64, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 346, 442, 280 19:15;16:1, 335:5, 443
+    armor: 306,300,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Beastmaster:
-    items: bone:5, 276, 364:13, 373:8193:1, 373:8265:2, 373:8194:1, 373:8259:2
+    items: bone:5, 276, 364:14, 373:8193:1, 373:8265:2, 373:8194:1, 373:8259:2, 170:2
     armor: 303,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
   Assassin:
-    items: 276, 261, 262:64, 46:10, 364:10, 373:8265:1, 373:8226:4, 373:8206:1, 373:16428:4, 373:8259:1
+    items: 276, 261, 46:10, 364:11, 373:8265:1, 373:8226:10, 373:8206:1, 373:16428:20, 373:8259:2, 373:8262:4, 262:128
     armor: 298,303 7:3,304 7:3,305 7:3
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
-    items: 267, 364:25, 373:16389:11, 373:16449:2, 442, bone:1, 335:20
+    items: 267, 364:32, 373:16389:20, 373:16417:15, 373:16451:2, 442, bone:1, 335:20, 322:2:2
     armor: 314,315,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -389,6 +389,7 @@ arenas:
           type: boss
           wave: 10
           monster: cave_spider
+          name: The_Cavemanly_Spider
           health: verylow
           abilities: arrows, root-target, throw-nearby
           drops: '335:5'
@@ -406,6 +407,7 @@ arenas:
           type: boss
           wave: 20
           monster: blaze
+          name: Bob_The_Blaze
           health: low
           abilities: fire-aura, throw-nearby
           potions: speed:2
@@ -434,6 +436,7 @@ arenas:
           type: boss
           wave: 30
           monster: witch
+          name: Im_A_Witch
           health: verylow
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
           reward: '42'
@@ -451,8 +454,9 @@ arenas:
         boss4:
           type: boss
           wave: 40
-          monster: silverfish
-          health: high
+          monster: ghast
+          name: The_One_Hit_Wonder
+          health: psycho
           abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant
           reward: '370:5'
         supply4:
@@ -469,6 +473,7 @@ arenas:
           type: boss
           wave: 50
           monster: slimehuge
+          name: Jimbo_The_Slime
           health: high
           abilities: arrows, pull-nearby, obsidian-bomb
           reward: '311'
@@ -491,6 +496,7 @@ arenas:
           type: boss
           wave: 60
           monster: squid
+          name: The_Death_Squid
           health: high
           abilities: flood, arrows, throw-target, disorient-target, fireballs
           reward: '322'
@@ -508,6 +514,7 @@ arenas:
           type: boss
           wave: 70
           monster: giant
+          name: Syns_Bodyguard
           health: high
           abilities: arrows, fireballs, throw-nearby, lightning-aura
           reward: '322:1'
@@ -525,6 +532,7 @@ arenas:
           type: boss
           wave: 80
           monster: pig_zombie
+          name: I_WANNA_POKE_YOU
           health: veryhigh
           abilities: chain-lightning, warp-to-player, shuffle-positions
           reward: 283:5, 41
@@ -546,6 +554,7 @@ arenas:
           type: boss
           wave: 90
           monster: enderman
+          name: Cave_On_A_Bad_Day
           health: veryhigh
           abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
           potions: slow:1
@@ -564,6 +573,7 @@ arenas:
           type: boss
           wave: 100
           monster: cave_spider
+          name: That_Other_Cavemanly_Spider
           health: psycho
           abilities: arrows, root-target, throw-nearby
           reward: '322:1'
@@ -750,6 +760,7 @@ arenas:
           type: boss
           wave: 10
           monster: cave_spider
+          name: The_Cavemanly_Spider
           health: verylow
           abilities: arrows, root-target, throw-nearby
           drops: '335:5'
@@ -767,6 +778,7 @@ arenas:
           type: boss
           wave: 20
           monster: blaze
+          name: Bob_The_Blaze
           health: low
           abilities: fire-aura, throw-nearby
           potions: speed:2
@@ -795,6 +807,7 @@ arenas:
           type: boss
           wave: 30
           monster: witch
+          name: Im_A_Witch
           health: verylow
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
           reward: '42'
@@ -812,8 +825,9 @@ arenas:
         boss4:
           type: boss
           wave: 40
-          monster: silverfish
-          health: high
+          monster: ghast
+          name: The_One_Hit_Wonder
+          health: psycho
           abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant
           reward: '370:5'
         supply4:
@@ -830,6 +844,7 @@ arenas:
           type: boss
           wave: 50
           monster: slimehuge
+          name: Jimbo_The_Slime
           health: high
           abilities: arrows, pull-nearby, obsidian-bomb
           reward: '311'
@@ -852,6 +867,7 @@ arenas:
           type: boss
           wave: 60
           monster: squid
+          name: The_Death_Squid
           health: high
           abilities: flood, arrows, throw-target, disorient-target, fireballs
           reward: '322'
@@ -869,6 +885,7 @@ arenas:
           type: boss
           wave: 70
           monster: giant
+          name: Syns_Bodyguard
           health: high
           abilities: arrows, fireballs, throw-nearby, lightning-aura
           reward: '322:1'
@@ -886,6 +903,7 @@ arenas:
           type: boss
           wave: 80
           monster: pig_zombie
+          name: I_WANNA_POKE_YOU
           health: veryhigh
           abilities: chain-lightning, warp-to-player, shuffle-positions
           reward: 283:5, 41
@@ -907,6 +925,7 @@ arenas:
           type: boss
           wave: 90
           monster: enderman
+          name: Cave_On_A_Bad_Day
           health: veryhigh
           abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
           potions: slow:1
@@ -925,6 +944,7 @@ arenas:
           type: boss
           wave: 100
           monster: cave_spider
+          name: That_Other_Cavemanly_Spider
           health: psycho
           abilities: arrows, root-target, throw-nearby
           reward: '322:1'
