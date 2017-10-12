@@ -8,7 +8,7 @@ global-settings:
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276, 46:64, 364:14, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:5, 442, 170:9
+    items: 276, 46:64, 364:14, 373:8265:2, 373:8194:1, 373:8193:2, 373:8259:1, 335:5, 442
     armor: 306 3:2,311 3:1,308 3:2,309 3:2
     unbreakable-weapons: true
     unbreakable-armor: true
