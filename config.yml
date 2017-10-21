@@ -33,7 +33,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Beastmaster:
-    items: bone:10, 276 19:3, 364:14, 373:8193:4, 373:8265:2, 373:8259:2, 170:2, 383:120:15, 344:16
+    items: bone:10, 276 19:3, 364:14, 373:8193:4, 373:8265:2, 373:8259:2, 170:2, 344:64
     armor: 314,303,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
