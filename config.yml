@@ -324,7 +324,7 @@ arenas:
             zombies: 10
             skeletons: 10
             spiders: 10
-            creepers: 10
+            creepers: 8
             silverfish: 10
         def2:
           type: default
@@ -341,7 +341,7 @@ arenas:
           frequency: 3
           monsters:
             witch: 5
-            zombie: 10
+            zombie-pigmen: 10
             magmacubesmall: 10
             slimesmall: 10
             explodingsheep: 3
@@ -387,8 +387,8 @@ arenas:
             Oddjob: 46:32, 332:32, 364:10
             Healer: 373:16389:10, 364:10
             Tank: 373:8233:1, 373:8257:1, 364:10
-            Beastmaster: bone:5, 364:10
-            give-all-items: true
+            Beastmaster: 322:1:5, 364:10
+          give-all-items: true
       single:
         boss1:
           type: boss
@@ -578,6 +578,7 @@ arenas:
             Monk:
               armor: 310 0:10;1:10;3:10;4:10;5:10;6:10;7:10, 311 0:10;1:10;3:10;4:10;7:10, 312 0:10;1:10;3:10;4:10;7:10, 313 0:10;1:10;2:10;3:10;4:10;7:10;8:10
               items: 279 17:3;20:20;19:6, 364:128, 322:2:2
+            give-all-items: true
         boss9:
           type: boss
           wave: 90
@@ -586,7 +587,7 @@ arenas:
           health: veryhigh
           abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
           potions: slow:1
-          reward: 368:64
+          reward: '368:64'
           drops: '335:5'
         supply9:
           type: supply
@@ -618,6 +619,7 @@ arenas:
           '15': '388:5'
           '30': '57'
           '50': '443'
+          '70': '57'
           '100': '399'
     coords:
       spawnpoints:
@@ -719,7 +721,7 @@ arenas:
             zombies: 10
             skeletons: 10
             spiders: 10
-            creepers: 10
+            creepers: 8
             silverfish: 10
         def2:
           type: default
@@ -736,7 +738,7 @@ arenas:
           frequency: 3
           monsters:
             witch: 5
-            zombie: 10
+            zombie-pigmen: 10
             magmacubesmall: 10
             slimesmall: 10
             explodingsheep: 3
@@ -783,7 +785,7 @@ arenas:
             Healer: 373:16389:10, 364:10
             Tank: 373:8233:2, 373:8257:1, 364:10
             Beastmaster: 322:1:2, 364:10
-            give-all-items: true
+          give-all-items: true
       single:
         boss1:
           type: boss
@@ -973,6 +975,7 @@ arenas:
             Monk:
               armor: 310 0:10;1:10;3:10;4:10;5:10;6:10;7:10, 311 0:10;1:10;3:10;4:10;7:10, 312 0:10;1:10;3:10;4:10;7:10, 313 0:10;1:10;2:10;3:10;4:10;7:10;8:10
               items: 279 17:3;20:20;19:6, 364:128, 322:2:2
+            give-all-items: true
         boss9:
           type: boss
           wave: 90
@@ -981,7 +984,7 @@ arenas:
           health: veryhigh
           abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
           potions: slow:1
-          reward: 368:64
+          reward: '368:64'
           drops: '335:5'
         supply9:
           type: supply
@@ -1013,6 +1016,7 @@ arenas:
           '15': '388:5'
           '30': '57'
           '50': '443'
+          '70': '57'
           '100': '399'
     coords:
       spawnpoints:
