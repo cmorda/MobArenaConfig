@@ -341,7 +341,7 @@ arenas:
           frequency: 3
           monsters:
             witch: 5
-            zombie-pigmen: 10
+            pig_zombie: 10
             magmacubesmall: 10
             slimesmall: 10
             explodingsheep: 3
@@ -351,7 +351,7 @@ arenas:
           frequency: 4
           monsters:
             powered-creepers: 2
-            zombie-pigmen: 10
+            angrywolf: 10
             babyzombie: 10
             enderman: 10
         spec2:
@@ -738,7 +738,7 @@ arenas:
           frequency: 3
           monsters:
             witch: 5
-            zombie-pigmen: 10
+            pig_zombie: 10
             magmacubesmall: 10
             slimesmall: 10
             explodingsheep: 3
@@ -748,7 +748,7 @@ arenas:
           frequency: 4
           monsters:
             powered-creepers: 2
-            zombie-pigmen: 10
+            angrywolf: 10
             babyzombie: 10
             enderman: 10
         spec2:
