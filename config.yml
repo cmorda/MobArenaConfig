@@ -3,17 +3,17 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /stats
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276 20:5, 46:64, 364:14, 373:8265:2, 373:8194:1, 373:8193:10, 373:8259:5, 335:5, 442
+    items: 276 20:5, 46:64, 364:14, 373:8265:2, 373:8194:1, 373:8193:10, 373:8259:5, 335:5, 442:3
     armor: 306 3:2;1:4,311 3:1;1:2,308 3:2;1:4,309 3:2;1:4
     unbreakable-weapons: true
     unbreakable-armor: true
   Tank:
-    items: 279, 364:14, 373:8257:1, 373:8233:5, 373:8259:2, 373:16425:15, 442, 335:5, 322:1:4
+    items: 279, 364:14, 373:8257:1, 373:8233:5, 373:8259:2, 373:16425:15, 442:3, 335:5, 322:1:4
     armor: 306,311,312,313
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -28,8 +28,8 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Oddjob:
-    items: 268 16:3;20:1, 280 19:15;16:1, 346, 322:4, 322:1:1 332:64, 46:16, 434:64, 373:8194:3, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 442, 335:5, 443, 368:64, bone:2
-    armor: 306,300,313
+    items: 268 16:3;20:1, 280 19:15;16:1, 346, 322:4, 322:1:1 332:64, 46:16, 434:64, 373:8194:3, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 442:3, 335:5, 443, 368:64, bone:2
+    armor: 306,308,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Beastmaster:
@@ -43,7 +43,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
-    items: 267, 364:32, 373:8229:10, 373:8225:4, 373:16389:20, 373:16417:15, 373:16451:2, 442, bone:1, 335:20, 322:1:4
+    items: 267, 364:32, 373:8229:10, 373:8225:4, 373:16389:20, 373:16417:15, 373:16451:2, 442:3, bone:1, 335:20, 322:1:4
     armor: 314,315,304,309
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -407,7 +407,7 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:6
+          drops: 262:64, 364:16, 320:16, 322:5
         boss2:
           type: boss
           wave: 20
@@ -461,14 +461,14 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:4
+          drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
           wave: 40
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
@@ -480,7 +480,7 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:4
+          drops: 262:64, 364:16, 320:16, 322:5
         boss5:
           type: boss
           wave: 50
@@ -556,7 +556,7 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
-          abilities: chain-lightning, warp-to-player, shuffle-positions
+          abilities: chain-lightning, warp-to-player, shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
         up4:
@@ -582,11 +582,10 @@ arenas:
         boss9:
           type: boss
           wave: 90
-          monster: enderman
-          name: Cave_On_A_Bad_Day
+          monster: silverfish
+          name: The_Silver_FEESH
           health: veryhigh
-          abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
-          potions: slow:1
+          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
           reward: '368:64'
           drops: '335:5'
         supply9:
@@ -605,7 +604,7 @@ arenas:
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
           health: psycho
-          abilities: arrows, root-target, throw-nearby
+          abilities: arrows, root-target, throw-nearby, disorient-nearby
           reward: '322:1'
     rewards:
       waves:
@@ -804,7 +803,7 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:4
+          drops: 262:64, 364:16, 320:16, 322:5
         boss2:
           type: boss
           wave: 20
@@ -858,14 +857,14 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:4
+          drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
           wave: 40
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
@@ -877,7 +876,7 @@ arenas:
             horse: 10
             mushroomcow: 10
             sheep: 10
-          drops: 262:64, 364:16, 320:16, 322:4
+          drops: 262:64, 364:16, 320:16, 322:5
         boss5:
           type: boss
           wave: 50
@@ -953,7 +952,7 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
-          abilities: chain-lightning, warp-to-player, shuffle-positions
+          abilities: chain-lightning, warp-to-player, shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
         up4:
@@ -979,10 +978,10 @@ arenas:
         boss9:
           type: boss
           wave: 90
-          monster: enderman
-          name: Cave_On_A_Bad_Day
+          monster: silverfish
+          name: The_Silver_FEESH
           health: veryhigh
-          abilities: fetch-distant, pull-distant, living-bomb, pull-target, pull-nearby, throw-nearby
+          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
           potions: slow:1
           reward: '368:64'
           drops: '335:5'
@@ -1002,8 +1001,8 @@ arenas:
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
           health: psycho
-          abilities: arrows, root-target, throw-nearby
-          reward: '322:1'
+          abilities: arrows, root-target, throw-nearby, disorient-nearby
+          reward: '322:1:5'
     rewards:
       waves:
         every:
