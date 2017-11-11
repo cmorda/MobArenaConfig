@@ -538,7 +538,7 @@ arenas:
           monster: giant
           name: Syns_Bodyguard
           health: high
-          abilities: arrows, fireballs, throw-nearby, lightning-aura
+          abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
           reward: '322:1:2'
           drops: '335:5'
         supply7:
@@ -935,7 +935,7 @@ arenas:
           monster: giant
           name: Syns_Bodyguard
           health: high
-          abilities: arrows, fireballs, throw-nearby, lightning-aura
+          abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
           reward: '322:1:2'
           drops: '335:5'
         supply7:
