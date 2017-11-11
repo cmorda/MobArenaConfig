@@ -465,7 +465,7 @@ arenas:
           drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
-          wave: 40
+          wave: 41
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
@@ -474,7 +474,7 @@ arenas:
           drops: '335:5'
         supply4:
           type: supply
-          wave: 41
+          wave: 40
           monsters:
             cows: 10
             pig: 10
@@ -553,7 +553,7 @@ arenas:
           drops: 262:192, 364:32, 320:32, 322:5
         boss8:
           type: boss
-          wave: 80
+          wave: 81
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
@@ -562,7 +562,7 @@ arenas:
           drops: '335:5'
         up4:
           type: upgrade
-          wave: 81
+          wave: 82
           upgrades:
             Archer: 262:1, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin: 
@@ -862,7 +862,7 @@ arenas:
           drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
-          wave: 40
+          wave: 41
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
@@ -871,7 +871,7 @@ arenas:
           drops: '335:5'
         supply4:
           type: supply
-          wave: 41
+          wave: 40
           monsters:
             cows: 10
             pig: 10
@@ -950,7 +950,7 @@ arenas:
           drops: 262:192, 364:32, 320:32, 322:5
         boss8:
           type: boss
-          wave: 80
+          wave: 81
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
@@ -959,7 +959,7 @@ arenas:
           drops: '335:5'
         up4:
           type: upgrade
-          wave: 81
+          wave: 82
           upgrades:
             Archer: 262:1, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin: 
