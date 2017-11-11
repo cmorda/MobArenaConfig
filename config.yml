@@ -397,7 +397,7 @@ arenas:
           monster: cave_spider
           name: The_Cavemanly_Spider
           health: verylow
-          abilities: arrows, root-target, throw-nearby, living-bomb
+          abilities: arrows, root-target, throw-nearby
           drops: '335:5'
         supply1:
           type: supply
