@@ -388,6 +388,7 @@ arenas:
             Healer: 373:16389:10, 364:10
             Tank: 373:8233:1, 373:8257:1, 364:10
             Beastmaster: 322:1:1, bone:50, 364:10
+            Monk: 322:1:2, 364:10
           give-all-items: true
       single:
         boss1:
@@ -396,7 +397,7 @@ arenas:
           monster: cave_spider
           name: The_Cavemanly_Spider
           health: verylow
-          abilities: arrows, root-target, throw-nearby
+          abilities: arrows, root-target, throw-nearby, living-bomb
           drops: '335:5'
         supply1:
           type: supply
@@ -441,7 +442,7 @@ arenas:
             Healer: 261, 262:128, 364:16
             Monk:
               armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316 0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
-              items: 322:1:15, 332:1152, 369 20:20, 364:64
+              items: 322:1:10, 332:1152, 369 20:20, 364:64
           give-all-items: true
         boss3:
           type: boss
@@ -509,7 +510,7 @@ arenas:
               armor: 313 2:1;1:4;3:1;4:1
               items: 368:64, 364:18
             Monk:
-              armor: 306 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 307 0:3;1:3;3:3;4:3;7:3, 308 0:3;1:3;3:3;4:3;7:3, 309 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              armor: 306 0:2;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:2;1:2;3:2;4:2;7:2, 308 0:2;1:2;3:2;4:2;7:2, 309 0:2;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 332:128, 344:128, 283 20:20;19:5;17:2
           give-all-items: true
         boss6:
@@ -518,7 +519,7 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura, obsidian-bomb
           reward: '322'
           drops: '335:5'
         supply6:
@@ -576,7 +577,7 @@ arenas:
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
             Oddjob: 332:640, 322:1:5, 364:32
             Monk:
-              armor: 310 0:10;1:10;3:10;4:10;5:10;6:10;7:10, 311 0:10;1:10;3:10;4:10;7:10, 312 0:10;1:10;3:10;4:10;7:10, 313 0:10;1:10;2:10;3:10;4:10;7:10;8:10
+              armor: 310 0:4;1:4;3:4;4:4;5:4;6:4;7:4, 311 0:4;1:4;3:4;4:4;7:4, 312 0:4;1:4;3:4;4:4;7:4, 313 0:4;1:4;2:4;3:4;4:4;7:4;8:4
               items: 279 17:3;20:20;19:6, 364:128, 322:1:2
             give-all-items: true
         boss9:
@@ -784,6 +785,7 @@ arenas:
             Healer: 373:16389:10, 364:10
             Tank: 373:8233:2, 373:8257:1, 364:10
             Beastmaster: 322:1:1, bone:50, 364:10
+            Monk: 322:1:1, 364:10
           give-all-items: true
       single:
         boss1:
@@ -905,7 +907,7 @@ arenas:
               armor: 313 2:1;1:4;3:1;4:1
               items: 368:64, 364:18
             Monk:
-              armor: 306 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 307 0:3;1:3;3:3;4:3;7:3, 308 0:3;1:3;3:3;4:3;7:3, 309 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              armor: 306 0:2;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:2;1:2;3:2;4:2;7:2, 308 0:2;1:2;3:2;4:2;7:2, 309 0:2;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 332:128, 344:128, 283 20:20;19:5
           give-all-items: true
         boss6:
@@ -914,7 +916,7 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, obsidian-bomb, lightning-aura
           reward: '322'
           drops: '335:5'
         supply6:
@@ -972,7 +974,7 @@ arenas:
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
             Oddjob: 332:640, 322:1:5, 364:32
             Monk:
-              armor: 310 0:10;1:10;3:10;4:10;5:10;6:10;7:10, 311 0:10;1:10;3:10;4:10;7:10, 312 0:10;1:10;3:10;4:10;7:10, 313 0:10;1:10;2:10;3:10;4:10;7:10;8:10
+              armor: 310 0:4;1:4;3:4;4:4;5:4;6:4;7:4, 311 0:4;1:4;3:4;4:4;7:4, 312 0:4;1:4;3:4;4:4;7:4, 313 0:4;1:4;2:4;3:4;4:4;7:4;8:4
               items: 279 17:3;20:20;19:6, 364:128, 322:1:2
             give-all-items: true
         boss9:
