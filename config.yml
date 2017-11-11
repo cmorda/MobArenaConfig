@@ -465,16 +465,16 @@ arenas:
           drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
-          wave: 41
+          wave: 40
           monster: ghast
           name: The_One_Hit_Wonder
-          health: psycho
+          health: high
           abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
           type: supply
-          wave: 40
+          wave: 41
           monsters:
             cows: 10
             pig: 10
@@ -553,16 +553,16 @@ arenas:
           drops: 262:192, 364:32, 320:32, 322:5
         boss8:
           type: boss
-          wave: 81
+          wave: 80
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
-          health: veryhigh
+          health: high
           abilities: chain-lightning, warp-to-player, shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
         up4:
           type: upgrade
-          wave: 82
+          wave: 81
           upgrades:
             Archer: 262:1, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin: 
@@ -585,7 +585,7 @@ arenas:
           wave: 90
           monster: silverfish
           name: The_Silver_FEESH
-          health: veryhigh
+          health: high
           abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
           reward: '368:64'
           drops: '335:5'
@@ -604,7 +604,7 @@ arenas:
           wave: 100
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
-          health: psycho
+          health: high
           abilities: arrows, root-target, throw-nearby, disorient-nearby
           reward: '322:1'
     rewards:
@@ -865,7 +865,7 @@ arenas:
           wave: 41
           monster: ghast
           name: The_One_Hit_Wonder
-          health: psycho
+          health: high
           abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
           reward: '370:5'
           drops: '335:5'
@@ -953,7 +953,7 @@ arenas:
           wave: 81
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
-          health: veryhigh
+          health: high
           abilities: chain-lightning, warp-to-player, shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
@@ -982,7 +982,7 @@ arenas:
           wave: 90
           monster: silverfish
           name: The_Silver_FEESH
-          health: veryhigh
+          health: high
           abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
           potions: slow:1
           reward: '368:64'
@@ -1002,7 +1002,7 @@ arenas:
           wave: 100
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
-          health: psycho
+          health: high
           abilities: arrows, root-target, throw-nearby, disorient-nearby
           reward: '322:1:5'
     rewards:
