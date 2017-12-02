@@ -394,10 +394,10 @@ arenas:
         boss1:
           type: boss
           wave: 10
-          monster: cave_spider
+          monster: wither_skeleton
           name: The_Cavemanly_Spider
           health: verylow
-          abilities: arrows, root-target, throw-nearby
+          abilities: arrows, throw-nearby, disorient-nearby
           drops: '335:5'
         supply1:
           type: supply
