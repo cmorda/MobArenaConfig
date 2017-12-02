@@ -279,7 +279,7 @@ arenas:
       clear-wave-before-boss: true
       soft-restore: false
       soft-restore-drops: false
-      require-empty-inv-join: true
+      require-empty-inv-join: false
       require-empty-inv-spec: false
       hellhounds: false
       pvp-enabled: false
@@ -519,7 +519,7 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura, obsidian-bomb
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
           reward: '322'
           drops: '335:5'
         supply6:
@@ -678,7 +678,7 @@ arenas:
       clear-wave-before-boss: true
       soft-restore: false
       soft-restore-drops: false
-      require-empty-inv-join: true
+      require-empty-inv-join: false
       require-empty-inv-spec: false
       hellhounds: false
       pvp-enabled: false
@@ -916,7 +916,7 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, obsidian-bomb, lightning-aura
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
           reward: '322'
           drops: '335:5'
         supply6:
