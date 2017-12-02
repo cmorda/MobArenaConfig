@@ -3,7 +3,7 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /stats
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /stats, /mctop, /me, /broadcast
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
@@ -374,7 +374,7 @@ arenas:
           priority: 5
           frequency: 5
           monster: magmacube
-          amount: high
+          amount: psycho
         up1:
           type: upgrade
           priority: 10
@@ -771,7 +771,7 @@ arenas:
           priority: 5
           frequency: 5
           monster: magmacube
-          amount: high
+          amount: psycho
         up1:
           type: upgrade
           priority: 10
