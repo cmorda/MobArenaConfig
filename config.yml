@@ -394,7 +394,7 @@ arenas:
         boss1:
           type: boss
           wave: 10
-          monster: wither_skeleton
+          monster: cave_spider
           name: The_Cavemanly_Spider
           health: verylow
           abilities: arrows, throw-nearby, disorient-nearby
