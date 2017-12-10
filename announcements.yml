@@ -1,5 +1,5 @@
 arena-start: Let the slaughter begin!
-arena-end: Arena finished.
+arena-end: Arena finished. Use &e/ma leave to exit&r!
 arena-does-not-exist: That arena does not exist. Type &e/ma arenas&r for a list.
 arena-end-global: Arena &e%&r finished! Type &e/ma j %&r to join a new game!
 arena-join-global: Arena &e%&r is about to start! Type &e/ma j %&r to join!
@@ -14,7 +14,7 @@ join-arena-edit-mode: This arena is in edit mode.
 join-arena-permission: You don't have permission to join this arena.
 join-fee-required: 'Insufficient funds. Price: &c%&r'
 join-fee-paid: 'Price to join was: &c%&r'
-join-arena-is-running: This arena is already in progress.
+join-arena-is-running: This arena is already in progress. Use &e/ma spec (arena)&r to spectate!
 join-already-playing: You are already playing!
 join-arg-needed: You must specify an arena.
 join-no-permission: You don't have permission to join any arenas.
