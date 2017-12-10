@@ -281,7 +281,7 @@ arenas:
       soft-restore-drops: false
       require-empty-inv-join: false
       require-empty-inv-spec: false
-      hellhounds: false
+      hellhounds: true
       pvp-enabled: false
       monster-infight: false
       allow-teleporting: false
@@ -680,7 +680,7 @@ arenas:
       soft-restore-drops: false
       require-empty-inv-join: false
       require-empty-inv-spec: false
-      hellhounds: false
+      hellhounds: true
       pvp-enabled: false
       monster-infight: false
       allow-teleporting: false
