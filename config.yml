@@ -29,7 +29,7 @@ classes:
     unbreakable-armor: true
   Oddjob:
     items: 268 16:3;20:1, 280 19:15;16:1, 346, 322:4, 322:1:1 332:128, 46:16, 260:32, 373:8194:3, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 442:3, 335:5, 443, 368:64, bone:2
-    armor: 306 1:4,308 1:4,313 1:4
+    armor: 306 1:4,308 1:4,313 1:4;2:10
     unbreakable-weapons: true
     unbreakable-armor: true
   Beastmaster:
