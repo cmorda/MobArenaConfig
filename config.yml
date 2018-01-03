@@ -718,60 +718,62 @@ arenas:
           priority: 1
           frequency: 1
           monsters:
-            zombies: 10
-            skeletons: 10
-            spiders: 10
-            creepers: 8
-            silverfish: 10
+            slimesmall: 10
+            angrywolf: 10
+            skelton: 10
+            witch: 5
+            creeper: 6
         def2:
           type: default
           priority: 2
           frequency: 2
           monsters:
-            zombies: 30
-            powered-creepers: 2
-            skeleton: 10
-            blaze: 10
+            pig_zombie: 60
+            ghast: 6
+            skeleton: 20
+            blaze: 20
+            wither_skeleton: 1
         def3:
           type: default
           priority: 2
           frequency: 3
           monsters:
-            witch: 5
-            pig_zombie: 10
-            magmacubesmall: 10
-            slimesmall: 10
-            explodingsheep: 3
+            magmacubebig: 10
+            explodingsheep: 4
+            silverfish: 10
+            zombie: 10
+            babyzombie: 5
+            cave_spider: 6
         spec1:
           type: special
           priority: 3
           frequency: 4
           monsters:
-            powered-creepers: 2
+            witch: 10
             angrywolf: 10
-            babyzombie: 10
-            enderman: 10
+            babypigman: 10
+            cave_spider: 10
         spec2:
           type: special
           priority: 4
           frequency: 8
           monsters:
-            cave_spider: 10
-            ghast: 10
+            enderman: 10
+            guardian: 10
             killerbunny: 10
-            witch: 10
+            powered-creeper: 10
         swarm1:
           type: swarm
           priority: 6
           frequency: 14
-          monster: slime
-          amount: high
+          monster: babyzombie
+          amount: medium
         swarm2:
           type: swarm
           priority: 5
           frequency: 5
-          monster: magmacube
-          amount: psycho
+          monster: spider
+          amount: high
         up1:
           type: upgrade
           priority: 10
