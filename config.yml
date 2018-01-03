@@ -793,10 +793,10 @@ arenas:
         boss1:
           type: boss
           wave: 10
-          monster: cave_spider
-          name: The_Cavemanly_Spider
+          monster: slimehuge
+          name: Jimbo_The_Slime
           health: verylow
-          abilities: arrows, root-target, throw-nearby
+          abilities: arrows, root-target, throw-nearby, pull-nearby
           drops: '335:5'
         supply1:
           type: supply
@@ -811,13 +811,12 @@ arenas:
         boss2:
           type: boss
           wave: 20
-          monster: blaze
-          name: Bob_The_Blaze
+          monster: silverfish
+          name: The_Silver_FEESH
           health: low
-          abilities: fire-aura, throw-nearby, disorient-distant
+          abilities: fetch-distant, pull-distant, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
           potions: speed:2
           reward: '369:2'
-          ability-interval: 2
           drops: '335:5'
         up2:
           type: upgrade
@@ -846,10 +845,10 @@ arenas:
         boss3:
           type: boss
           wave: 30
-          monster: witch
-          name: Im_A_Witch
-          health: verylow
-          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby
+          monster: giant
+          name: Syns_Bodyguard
+          health: medium
+          abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
           reward: '42'
           drops: '335:5'
         supply3:
@@ -864,16 +863,16 @@ arenas:
           drops: 262:64, 364:16, 320:16, 322:5
         boss4:
           type: boss
-          wave: 41
-          monster: ghast
-          name: The_One_Hit_Wonder
+          wave: 40
+          monster: angrywolf
+          name: Destroyer_Doggo
           health: high
           abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
           type: supply
-          wave: 40
+          wave: 41
           monsters:
             cows: 10
             pig: 10
@@ -884,10 +883,10 @@ arenas:
         boss5:
           type: boss
           wave: 50
-          monster: slimehuge
-          name: Jimbo_The_Slime
+          monster: cave_spider
+          name: The_Cavemanly_Spider
           health: high
-          abilities: arrows, pull-nearby, obsidian-bomb
+          abilities: arrows, pull-nearby, disorient-target, obsidian-bomb
           reward: '311'
           drops: '335:5'
         up3:
@@ -934,10 +933,10 @@ arenas:
         boss7:
           type: boss
           wave: 70
-          monster: giant
-          name: Syns_Bodyguard
+          monster: witch
+          name: Im_A_Witch
           health: veryhigh
-          abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
+          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
           reward: '322:1:2'
           drops: '335:5'
         supply7:
@@ -982,11 +981,11 @@ arenas:
         boss9:
           type: boss
           wave: 90
-          monster: silverfish
-          name: The_Silver_FEESH
+          monster: blaze
+          name: Bob_The_Blaze
           health: veryhigh
-          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
-          potions: slow:1
+          abilities: fire-aura, disorient-distant, fireballs, throw-distant, obsidian-bomb
+          potions: speed:2
           reward: '154:5'
           drops: '335:5'
         supply9:
@@ -1002,10 +1001,10 @@ arenas:
         boss10:
           type: boss
           wave: 100
-          monster: cave_spider
-          name: That_Other_Cavemanly_Spider
+          monster: slimehuge
+          name: Jimbos_Brother
           health: psycho
-          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player
           reward: '399'
     rewards:
       waves:
