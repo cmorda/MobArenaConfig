@@ -743,7 +743,7 @@ arenas:
             silverfish: 10
             zombie: 10
             babyzombie: 5
-            cave_spider: 6
+            cave_spider: 10
         spec1:
           type: special
           priority: 3
@@ -751,7 +751,7 @@ arenas:
           monsters:
             witch: 10
             angrywolf: 10
-            babypigman: 10
+            babyzombie: 10
             cave_spider: 10
         spec2:
           type: special
@@ -759,9 +759,9 @@ arenas:
           frequency: 8
           monsters:
             enderman: 10
-            guardian: 10
+            babypigman: 10
             killerbunny: 10
-            powered-creeper: 10
+            powered-creeper: 8
         swarm1:
           type: swarm
           priority: 6
