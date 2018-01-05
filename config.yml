@@ -721,7 +721,7 @@ arenas:
             slimesmall: 10
             angrywolf: 10
             skelton: 10
-            witch: 5
+            witch: 3
             creeper: 6
         def2:
           type: default
@@ -743,7 +743,7 @@ arenas:
             silverfish: 10
             zombie: 10
             babyzombie: 5
-            cave_spider: 10
+            cave_spider: 7
         spec1:
           type: special
           priority: 3
