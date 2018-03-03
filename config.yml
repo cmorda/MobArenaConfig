@@ -1069,7 +1069,7 @@ arenas:
       Chemist: -1
   maboss:
     settings:
-      prefix: 'BossBattles'
+      prefix: '&a[BossBattles]'
       world: pvp
       enabled: true
       protect: true
