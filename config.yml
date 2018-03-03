@@ -1278,7 +1278,7 @@ arenas:
           monster: silverfish
           name: The_Silver_FEESH
           health: veryhigh
-          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
+          abilities: fetch-distant, pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target, arrows, fireballs, shuffle-positions, pull-nearby
         boss11:
           type: boss
           wave: 21
@@ -1292,7 +1292,7 @@ arenas:
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
           health: psycho
-          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs
+          abilities: arrows, throw-nearby, disorient-nearby, fireballs, root-target
     rewards:
       waves:
         every:
@@ -1300,18 +1300,18 @@ arenas:
           '5': dirt:4, gravel:4, sand:4
           '10': iron_ingot:5, gold_ingot:4
         after:
-          '1': '287:16'
-          '3': '369'
-          '5': '22'
-          '7': '348:12'
-          '9': '370:5'
-          '11': '165:5'
-          '13': '322:0:5'
-          '15': '49:16'
-          '17': '133'
-          '19': '322:1:1'
-          '21': '57'
-          '23': '57'
+          '2': '287:16'
+          '4': '369'
+          '6': '22'
+          '8': '348:12'
+          '10': '370:5'
+          '12': '165:5'
+          '14': '322:0:5'
+          '16': '49:16'
+          '18': '133'
+          '20': '322:1:1'
+          '22': '57'
+          '24': '57'
     coords:
       spawnpoints:
         -328,38,-199: -327.5,38,-198.5,0.0,0.0,pvp
