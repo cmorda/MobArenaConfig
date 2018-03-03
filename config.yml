@@ -274,6 +274,7 @@ arenas:
       enabled: true
       protect: true
       entry-fee: ''
+      default-class: 'tank'
       clear-wave-before-next: true
       clear-boss-before-next: true
       clear-wave-before-boss: true
@@ -606,7 +607,7 @@ arenas:
           name: That_Other_Cavemanly_Spider
           health: psycho
           abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs
-          reward: '399'
+          reward: '322:1:5'
     rewards:
       waves:
         every:
@@ -620,7 +621,7 @@ arenas:
           '30': '57'
           '50': '443'
           '70': '57'
-          '100': '322:1:5'
+          '100': '399'
     coords:
       spawnpoints:
         -167,26,-170: -166.5,26,-169.5,0.0,0.0,pvp
@@ -672,7 +673,7 @@ arenas:
       enabled: true
       protect: true
       entry-fee: ''
-      default-class: ''
+      default-class: 'tank'
       clear-wave-before-next: true
       clear-boss-before-next: true
       clear-wave-before-boss: true
@@ -1005,7 +1006,7 @@ arenas:
           name: Jimbos_Brother
           health: psycho
           abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player
-          reward: '399'
+          reward: '322:1:5'
     rewards:
       waves:
         every:
@@ -1019,7 +1020,7 @@ arenas:
           '30': '57'
           '50': '443'
           '70': '57'
-          '100': '322:1:5'
+          '100': '399'
     coords:
       spawnpoints:
         -207,42,-292: -206.5,42,-291.5,0.0,0.0,pvp
@@ -1068,39 +1069,39 @@ arenas:
       Chemist: -1
   maboss:
     settings:
-      prefix: ''
+      prefix: 'BossBattles'
       world: pvp
       enabled: true
       protect: true
       entry-fee: ''
-      default-class: ''
-      clear-wave-before-next: false
-      clear-boss-before-next: false
-      clear-wave-before-boss: false
+      default-class: 'tank'
+      clear-wave-before-next: true
+      clear-boss-before-next: true
+      clear-wave-before-boss: true
       soft-restore: false
       soft-restore-drops: false
       require-empty-inv-join: false
       require-empty-inv-spec: false
-      hellhounds: false
+      hellhounds: true
       pvp-enabled: false
       monster-infight: false
-      allow-teleporting: false
+      allow-teleporting: true
       spectate-on-death: true
       auto-respawn: true
       share-items-in-arena: true
       min-players: 0
       max-players: 0
       max-join-distance: 0
-      first-wave-delay: 5
-      wave-interval: 15
-      final-wave: 0
+      first-wave-delay: 15
+      wave-interval: 30
+      final-wave: 23
       monster-limit: 100
       monster-exp: false
-      keep-exp: true
-      food-regen: false
-      lock-food-level: true
+      keep-exp: false
+      food-regen: true
+      lock-food-level: false
       player-time-in-arena: world
-      auto-ignite-tnt: false
+      auto-ignite-tnt: true
       auto-start-timer: 0
       start-delay-timer: 0
       auto-ready: false
@@ -1109,8 +1110,8 @@ arenas:
       display-timer-as-level: false
       use-scoreboards: true
       isolated-chat: false
-      global-join-announce: false
-      global-end-announce: false
+      global-join-announce: true
+      global-end-announce: true
       show-death-messages: true
     waves:
       recurrent:
@@ -1119,42 +1120,198 @@ arenas:
           priority: 1
           frequency: 1
           monsters:
-            zombies: 10
-            skeletons: 10
-            spiders: 10
-            creepers: 10
-            wolves: 10
-        spec1:
-          type: special
+            slimesmall: 10
+            angrywolf: 10
+            skelton: 10
+            witch: 3
+            creeper: 6
+        supply1:
+          type: supply
           priority: 2
-          frequency: 4
+          frequency: 2
           monsters:
-            powered-creepers: 10
-            zombie-pigmen: 10
-            angry-wolves: 10
-            blazes: 10
+            cows: 10
+            pig: 10
+            horse: 10
+            mushroomcow: 10
+            sheep: 10
+          drops: 262:384, 364:64, 320:64, 322:5
       single:
-        swarm1:
-          type: swarm
-          wave: 6
-          monster: slime
-          amount: low
         boss1:
           type: boss
-          wave: 10
+          wave: 1
           monster: cave_spider
+          name: The_Cavemanly_Spider
+          health: verylow
+          abilities: arrows, throw-nearby, disorient-nearby
+          drops: '335:5'
+        boss2:
+          type: boss
+          wave: 3
+          monster: blaze
+          name: Bob_The_Blaze
+          health: low
+          abilities: fire-aura, throw-nearby, disorient-distant
+          potions: speed:2
+          reward: '369:2'
+          ability-interval: 2
+          drops: '335:5'
+        up1:
+          type: upgrade
+          wave: 4
+          upgrades:
+            Archer: 261 48:1;49:1, 262:64, 364:16
+            Tank:
+              armor: 310 7:1, 313 0:1
+              items: 279 17:1, 364:16
+            Assassin:
+              armor: 302 7:5
+              items: 262:64, 364:16
+            Chemist: 276 17:1, 364:16
+            Beastmaster: 276 17:1;19:4, 364:16
+            Oddjob:
+              armor: 310 1:4;0:1
+              items: 280 17:1;19:15;20:3, 260:40
+            Knight:
+              armor: 311 3:2;1:4
+              items: 276 17:1;20:5, 364:16
+            Healer: 261, 262:128, 364:16
+            Monk:
+              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316 0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
+              items: 322:1:10, 369 20:20, 364:64, 332:400
+          give-all-items: true
+        boss3:
+          type: boss
+          wave: 5
+          monster: angrywolf
+          name: Destroyer_Doggo
+          health: low
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+          drops: '335:5'
+        boss4:
+          type: boss
+          wave: 7
+          monster: witch
+          name: Im_A_Witch
+          health: verylow
+          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
+        boss5:
+          type: boss
+          wave: 9
+          monster: ghast
+          name: The_One_Hit_Wonder
+          health: psycho
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+        boss6:
+          type: boss
+          wave: 11
+          monster: slimehuge
+          name: Jimbo_The_Slime
+          health: medium
+          abilities: arrows, pull-nearby, obsidian-bomb, fireballs, throw-nearby
+        up2:
+          type: upgrade
+          wave: 12
+          upgrades:
+            Archer: 262:128, 261 48:2;49:1;50:1, 364:18
+            Assassin:
+              armor: 304 7:5, 305 7:5
+              items: 261 48:1;49:1;50:1, 262:128, 364:18
+            Tank:
+              armor: 311 0:3;7:4, 312 0:2
+              items: 279 17:2;19:1, 364:18
+            Knight: 46:64, 276 17:2;19:1;20:6, 364:18
+            Beastmaster: 276 17:2;19:5, bone:50, 364:18
+            Healer: 276 17:1, 364:18, 262:128
+            Chemist: 276 17:2;19:1, 364:18
+            Oddjob:
+              armor: 313 1:4;2:10;3:1;4:1
+              items: 368:64, 260:48, 261, 262:64
+            Monk:
+              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308 0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
+              items: 364:64, 322:1:10, 283 20:20;19:5;17:2, 332:128
+          give-all-items: true
+        boss7:
+          type: boss
+          wave: 13
+          monster: squid
+          name: The_Death_Squid
           health: high
-          abilities: arrows, root-target, throw-nearby
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
+        boss8:
+          type: boss
+          wave: 15
+          monster: giant
+          name: Syns_Bodyguard
+          health: veryhigh
+          abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
+        boss9:
+          type: boss
+          wave: 17
+          monster: pig_zombie
+          name: I_WANNA_POKE_YOU
+          health: high
+          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+        up3:
+          type: upgrade
+          wave: 18
+          upgrades:
+            Archer: 262:1, 261 48:3;49:1;50:1;51:1, 364:32
+            Assassin:
+              armor: 303 7:5
+              items: 261 48:2;49:1;50:2, 262:200, 364:32
+            Tank:
+              armor: 310 0:3;7:2, 312 0:3, 313 0:3
+              items: 279 17:4;19:1, 322:1:1, 364:32
+            Knight: 276 17:4;19:1;20:7, 364:32
+            Chemist: 276 17:3;19:1;20:1, 364:32
+            Beastmaster: 276 17:3;19:7;20:1, 364:32
+            Healer: 276 17:2, 261 48:2, 262:300, 364:32
+            Oddjob: 322:1:5, 260:128, 332:640, 262:128, 261 48:1
+            Monk:
+              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312 0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              items: 279 17:3;20:20;19:6, 364:128, 322:1:10
+          give-all-items: true
+        boss10:
+          type: boss
+          wave: 19
+          monster: silverfish
+          name: The_Silver_FEESH
+          health: veryhigh
+          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
+        boss11:
+          type: boss
+          wave: 21
+          monster: slimehuge
+          name: Jimbos_Brother
+          health: veryhigh
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player
+        boss12:
+          type: boss
+          wave: 23
+          monster: cave_spider
+          name: That_Other_Cavemanly_Spider
+          health: psycho
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs
     rewards:
       waves:
         every:
-          '3': feather, bone, stick
-          '5': dirt:4, gravel:4, stone:4
-          '10': iron_ingot:10, gold_ingot:8
+          '3': leather:2, bone:2, stick:2, 331:2
+          '5': dirt:4, gravel:4, sand:4
+          '10': iron_ingot:5, gold_ingot:4
         after:
-          '7': minecart, storage_minecart, powered_minecart
-          '13': iron_sword, iron_pickaxe, iron_spade
-          '16': diamond_sword
+          '1': '287:16'
+          '3': '369'
+          '5': '22'
+          '7': '348:12'
+          '9': '370:5'
+          '11': '165:5'
+          '13': '322:0:5'
+          '15': '49:16'
+          '17': '133'
+          '19': '322:1:1'
+          '21': '57'
+          '23': '57'
     coords:
       spawnpoints:
         -328,38,-199: -327.5,38,-198.5,0.0,0.0,pvp
