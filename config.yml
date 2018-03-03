@@ -1251,7 +1251,7 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: high
-          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+          abilities: lightning-aura, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
         up3:
           type: upgrade
           wave: 18
@@ -1285,7 +1285,7 @@ arenas:
           monster: slimehuge
           name: Jimbos_Brother
           health: veryhigh
-          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player, lightning-aura
         boss12:
           type: boss
           wave: 23
