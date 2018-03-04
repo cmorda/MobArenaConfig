@@ -1137,9 +1137,30 @@ arenas:
             sheep: 10
           drops: 262:384, 364:64, 320:64, 322:5
       single:
-        boss1:
+        bossdragon:
           type: boss
           wave: 1
+          monster: ender_dragon
+          name: Nom_Nom_Yummy_Hoomans
+          health: verylow
+          abilities: root-target, fireballs, disorient-distant
+        bosswither:
+          type: boss
+          wave: 3
+          monster: wither
+          name: Everybody_Do_The_Flop
+          health: verylow
+          abilities: throw-target, throw-nearby, fire-aura, throw-distant
+        bossguardian:
+          type: boss
+          wave: 4
+          monster: elder_guardian
+          name: The_Blub_Master
+          health: verylow
+          abilities: flood, disorient-distant, lightning-aura, fireballs, arrows, pull-nearby, disorient-nearby, shuffle-positions
+        boss1:
+          type: boss
+          wave: 5
           monster: cave_spider
           name: The_Cavemanly_Spider
           health: verylow
@@ -1147,7 +1168,7 @@ arenas:
           drops: '335:5'
         boss2:
           type: boss
-          wave: 3
+          wave: 6
           monster: blaze
           name: Bob_The_Blaze
           health: low
@@ -1158,7 +1179,7 @@ arenas:
           drops: '335:5'
         up1:
           type: upgrade
-          wave: 4
+          wave: 7
           upgrades:
             Archer: 261 48:1;49:1, 262:64, 364:16
             Tank:
@@ -1182,7 +1203,7 @@ arenas:
           give-all-items: true
         boss3:
           type: boss
-          wave: 5
+          wave: 8
           monster: angrywolf
           name: Destroyer_Doggo
           health: low
@@ -1190,14 +1211,14 @@ arenas:
           drops: '335:5'
         boss4:
           type: boss
-          wave: 7
+          wave: 9
           monster: witch
           name: Im_A_Witch
           health: verylow
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
         boss5:
           type: boss
-          wave: 9
+          wave: 10
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
@@ -1306,12 +1327,12 @@ arenas:
           '8': '348:12'
           '10': '370:5'
           '12': '165:5'
-          '14': '322:0:5'
-          '16': '49:16'
-          '18': '133'
+          '14': '19'
+          '16': '322:0:2'
+          '18': '49:4'
           '20': '322:1:1'
-          '22': '57'
-          '24': '57'
+          '22': '388:5'
+          '24': '264:5'
     coords:
       spawnpoints:
         -328,38,-199: -327.5,38,-198.5,0.0,0.0,pvp
