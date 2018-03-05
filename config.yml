@@ -1137,30 +1137,9 @@ arenas:
             sheep: 10
           drops: 262:384, 364:64, 320:64, 322:5
       single:
-        bossguardian:
-          type: boss
-          wave: 1
-          monster: elder_guardian
-          name: The_Blub_Master
-          health: verylow
-          abilities: flood, disorient-distant, lightning-aura, fireballs, arrows, pull-nearby, disorient-nearby, shuffle-positions
-        bossshulker:
-          type: boss
-          wave: 3
-          monster: shulker
-          name: Peek_A_Boo
-          health: verylow
-          abilities: warp-to-player, pull-nearby, fireballs, fetch-distant, pull-distant, throw-nearby, lightning-aura
-        bosswitherskeleton:
-          type: boss
-          wave: 4
-          monster: wither_skeleton
-          name: Mr_Stabby
-          health: verylow
-          abilities: root-target, disorient-distant, lightning-aura, disorient-nearby, fire-aura, disorient-target
         boss1:
           type: boss
-          wave: 5
+          wave: 1
           monster: cave_spider
           name: The_Cavemanly_Spider
           health: verylow
@@ -1168,7 +1147,7 @@ arenas:
           drops: '335:5'
         boss2:
           type: boss
-          wave: 6
+          wave: 3
           monster: blaze
           name: Bob_The_Blaze
           health: low
@@ -1178,7 +1157,7 @@ arenas:
           drops: '335:5'
         up1:
           type: upgrade
-          wave: 7
+          wave: 4
           upgrades:
             Archer: 261 48:1;49:1, 262:64, 364:16
             Tank:
@@ -1202,7 +1181,7 @@ arenas:
           give-all-items: true
         boss3:
           type: boss
-          wave: 8
+          wave: 5
           monster: angrywolf
           name: Destroyer_Doggo
           health: low
@@ -1210,14 +1189,14 @@ arenas:
           drops: '335:5'
         boss4:
           type: boss
-          wave: 9
+          wave: 7
           monster: witch
           name: Im_A_Witch
           health: verylow
           abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
         boss5:
           type: boss
-          wave: 10
+          wave: 9
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
@@ -1225,13 +1204,20 @@ arenas:
         boss6:
           type: boss
           wave: 11
+          monster: shulker
+          name: Peek_A_Boo
+          health: medium
+          abilities: throw-target, pull-nearby, fire-aura, fetch-distant, throw-nearby, lightning-aura, throw-distant, disorient-target
+        boss7:
+          type: boss
+          wave: 13
           monster: slimehuge
           name: Jimbo_The_Slime
           health: medium
           abilities: arrows, pull-nearby, obsidian-bomb, fireballs, throw-nearby
         up2:
           type: upgrade
-          wave: 12
+          wave: 14
           upgrades:
             Archer: 262:128, 261 48:2;49:1;50:1, 364:18
             Assassin:
@@ -1251,23 +1237,23 @@ arenas:
               armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308 0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 283 20:20;19:5;17:2, 332:128
           give-all-items: true
-        boss7:
+        boss8:
           type: boss
-          wave: 13
+          wave: 15
           monster: squid
           name: The_Death_Squid
           health: high
           abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
-        boss8:
+        boss9:
           type: boss
-          wave: 15
+          wave: 17
           monster: giant
           name: Syns_Bodyguard
           health: veryhigh
           abilities: arrows, fireballs, throw-nearby, lightning-aura, obsidian-bomb
-        boss9:
+        boss10:
           type: boss
-          wave: 17
+          wave: 19
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: high
@@ -1275,7 +1261,7 @@ arenas:
           potions: speed:1
         up3:
           type: upgrade
-          wave: 18
+          wave: 20
           upgrades:
             Archer: 262:1, 261 48:3;49:1;50:1;51:1, 364:32
             Assassin:
@@ -1293,24 +1279,24 @@ arenas:
               armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312 0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
               items: 279 17:3;20:20;19:6, 364:128, 322:1:10
           give-all-items: true
-        boss10:
+        boss11:
           type: boss
-          wave: 19
+          wave: 21
           monster: silverfish
           name: The_Silver_FEESH
           health: veryhigh
           abilities: pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target, arrows, fetch-distant, fireballs, shuffle-positions, pull-nearby
           potions: speed:1
-        boss11:
+        boss12:
           type: boss
-          wave: 21
+          wave: 23
           monster: slimehuge
           name: Jimbos_Brother
           health: veryhigh
           abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player, lightning-aura
-        boss12:
+        boss13:
           type: boss
-          wave: 23
+          wave: 25
           monster: cave_spider
           name: That_Other_Cavemanly_Spider
           health: psycho
