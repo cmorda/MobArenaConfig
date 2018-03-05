@@ -1157,7 +1157,7 @@ arenas:
           monster: wither_skeleton
           name: Mr_Stabby
           health: verylow
-          abilities: root-target, disorient-distant, lightning-aura, disorient-nearby, fire-aura, arrows, disorient-target
+          abilities: root-target, disorient-distant, lightning-aura, disorient-nearby, fire-aura, disorient-target
         boss1:
           type: boss
           wave: 5
@@ -1174,7 +1174,6 @@ arenas:
           health: low
           abilities: fire-aura, throw-nearby, disorient-distant
           potions: speed:2
-          reward: '369:2'
           ability-interval: 2
           drops: '335:5'
         up1:
@@ -1273,6 +1272,7 @@ arenas:
           name: I_WANNA_POKE_YOU
           health: high
           abilities: lightning-aura, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+          potions: speed:1
         up3:
           type: upgrade
           wave: 18
@@ -1299,7 +1299,8 @@ arenas:
           monster: silverfish
           name: The_Silver_FEESH
           health: veryhigh
-          abilities: fetch-distant, pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target, arrows, fireballs, shuffle-positions, pull-nearby
+          abilities: pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target, arrows, fetch-distant, fireballs, shuffle-positions, pull-nearby
+          potions: speed:1
         boss11:
           type: boss
           wave: 21
