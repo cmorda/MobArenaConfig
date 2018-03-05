@@ -1137,27 +1137,27 @@ arenas:
             sheep: 10
           drops: 262:384, 364:64, 320:64, 322:5
       single:
-        bossdragon:
-          type: boss
-          wave: 1
-          monster: ender_dragon
-          name: Nom_Nom_Yummy_Hoomans
-          health: verylow
-          abilities: root-target, fireballs, disorient-distant
-        bosswither:
-          type: boss
-          wave: 3
-          monster: wither
-          name: Everybody_Do_The_Flop
-          health: verylow
-          abilities: throw-target, throw-nearby, fire-aura, throw-distant
         bossguardian:
           type: boss
-          wave: 4
+          wave: 1
           monster: elder_guardian
           name: The_Blub_Master
           health: verylow
           abilities: flood, disorient-distant, lightning-aura, fireballs, arrows, pull-nearby, disorient-nearby, shuffle-positions
+        bossshulker:
+          type: boss
+          wave: 3
+          monster: shulker
+          name: Peek_A_Boo
+          health: verylow
+          abilities: warp-to-player, pull-nearby, fireballs, fetch-distant, pull-distant, throw-nearby, lightning-aura
+        bosswitherskeleton:
+          type: boss
+          wave: 4
+          monster: wither_skeleton
+          name: Mr_Stabby
+          health: verylow
+          abilities: root-target, disorient-distant, lightning-aura, disorient-nearby, fire-aura, arrows, disorient-target
         boss1:
           type: boss
           wave: 5
