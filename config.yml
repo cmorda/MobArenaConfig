@@ -3,32 +3,41 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming, /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /stats, /mctop, /me, /broadcast, /tpo, /tpohere, /killall, /god
+  allowed-commands: /list, /pl, /msg, /p, /helpop, /help, /swords, /unarmed, /taming,
+    /archery, /axes, /rules, /calc, /party, /r, /mcscoreboard, /stats, /mctop, /me,
+    /broadcast, /tpo, /tpohere, /killall, /god
   update-notification: true
   prefix: '&a[MobArena] '
 classes:
   Knight:
-    items: 276 20:5, 46:64, 364:16, 373:8265:2, 373:8194:1, 373:8193:10, 373:8259:5, 335:5, 442:3
+    items: 276 20:5, 46:64, 364:16, 373:8265:2, 373:8194:1, 373:8193:10, 373:8259:5,
+      335:5, 442:3
     armor: 306 3:2;1:4,311 3:1;1:2,308 3:2;1:4,309 3:2;1:4
     unbreakable-weapons: true
     unbreakable-armor: true
   Tank:
-    items: 279, 364:16, 373:8257:1, 373:8233:5, 373:8259:2, 373:16425:15, 442:3, 335:5, 322:1:4
+    items: 279, 364:16, 373:8257:1, 373:8233:5, 373:8259:2, 373:16425:15, 442:3, 335:5,
+      322:1:4
     armor: 306,311,312,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Archer:
-    items: 276, 261, 46:3, 364:16, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1, 262:384
+    items: 276, 261, 46:3, 364:16, 373:8258:1, 373:8201:2, 373:8193:1, 373:8195:1,
+      262:384
     armor: 302,307,308,305
     unbreakable-weapons: true
     unbreakable-armor: true
   Chemist:
-    items: 276, 46:20, 364:18, 335:10, 373:8233:3, 373:8229:3, 373:8258:6, 373:8259:3, 373:8198:10, 373:16417:3, 373:16426:20, 373:16428:10, 373:16421:2, 373:16392:5, 322:1:2
+    items: 276, 46:20, 364:18, 335:10, 373:8233:3, 373:8229:3, 373:8258:6, 373:8259:3,
+      373:8198:10, 373:16417:3, 373:16426:20, 373:16428:10, 373:16421:2, 373:16392:5,
+      322:1:2
     armor: 306,303,304,313
     unbreakable-weapons: true
     unbreakable-armor: true
   Oddjob:
-    items: 268 16:3;20:1, 280 19:15;16:1, 346, 322:4, 322:1:1 332:128, 46:16, 260:32, 373:8194:3, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 442:3, 335:5, 443, 368:64, bone:2
+    items: 268 16:3;20:1, 280 19:15;16:1, 346, 322:4, 322:1:1 332:128, 46:16, 260:32,
+      373:8194:3, 373:8265:2, 373:8193:1, 373:8194:1, 373:8259:1, 442:3, 335:5, 443,
+      368:64, bone:2
     armor: 306 1:4,308 1:4,313 1:4;2:10
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -38,17 +47,20 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Assassin:
-    items: 276, 261 50:1, 46:16, 364:16, 373:8265:1, 373:8226:10, 373:8206:1, 373:16428:20, 373:8259:2, 373:8262:4, 262:128
+    items: 276, 261 50:1, 46:16, 364:16, 373:8265:1, 373:8226:10, 373:8206:1, 373:16428:20,
+      373:8259:2, 373:8262:4, 262:128
     armor: 298,303 7:3,304 7:3,305 7:3
     unbreakable-weapons: true
     unbreakable-armor: true
   Healer:
-    items: 267, 364:32, 373:8229:10, 373:8225:4, 373:16389:20, 373:16417:15, 373:16451:2, 442:3, bone:1, 335:20, 322:1:4
+    items: 267, 364:32, 373:8229:10, 373:8225:4, 373:16389:20, 373:16417:15, 373:16451:2,
+      442:3, bone:1, 335:20, 322:1:4
     armor: 314 7:2,315 7:2,304 7:2,309 7:2
     unbreakable-weapons: true
     unbreakable-armor: true
   Monk:
-    items: 364:128, 335:20, 322:1:15, 340 0:1;1:1;2:1;3:1;4:1;5:1;6:1;7:1;8:1;9:1;16:1;17:1;18:1;19:5;20:1;21:1;22:1;32:1;33:1;34:1;35:1;48:1;49:1;50:1;51:1;61:1;62:1, 332:1152
+    items: 364:128, 335:20, 322:1:15, 340 0:1;1:1;2:1;3:1;4:1;5:1;6:1;7:1;8:1;9:1;16:1;17:1;18:1;19:5;20:1;21:1;22:1;32:1;33:1;34:1;35:1;48:1;49:1;50:1;51:1;61:1;62:1,
+      332:1152
     armor: 298 1:2,299 1:2,300 1:2,301 1:2
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -274,7 +286,7 @@ arenas:
       enabled: true
       protect: true
       entry-fee: ''
-      default-class: 'tank'
+      default-class: ''
       clear-wave-before-next: true
       clear-boss-before-next: true
       clear-wave-before-boss: true
@@ -314,7 +326,6 @@ arenas:
       global-end-announce: true
       show-death-messages: true
       prefix: ''
-      default-class: ''
     waves:
       recurrent:
         def1:
@@ -442,7 +453,8 @@ arenas:
               items: 276 17:1;20:5, 364:16
             Healer: 261, 262:128, 364:16
             Monk:
-              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316 0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
+              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316
+                0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
               items: 322:1:10, 369 20:20, 364:64, 332:400
           give-all-items: true
         boss3:
@@ -470,7 +482,8 @@ arenas:
           monster: ghast
           name: The_One_Hit_Wonder
           health: high
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant,
+            lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
@@ -511,7 +524,8 @@ arenas:
               armor: 313 1:4;2:10;3:1;4:1
               items: 368:64, 260:48, 261, 262:64
             Monk:
-              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308 0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
+              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308
+                0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 283 20:20;19:5;17:2, 332:128
           give-all-items: true
         boss6:
@@ -520,7 +534,8 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player,
+            lightning-aura
           reward: '322'
           drops: '335:5'
         supply6:
@@ -558,7 +573,8 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
-          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target,
+            shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
         up4:
@@ -578,7 +594,8 @@ arenas:
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
             Oddjob: 322:1:5, 260:128, 332:640, 262:128, 261 48:1
             Monk:
-              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312 0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312
+                0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
               items: 279 17:3;20:20;19:6, 364:128, 322:1:10
           give-all-items: true
         boss9:
@@ -587,7 +604,8 @@ arenas:
           monster: silverfish
           name: The_Silver_FEESH
           health: veryhigh
-          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
+          abilities: fetch-distant, pull-distant, obsidian-bomb, pull-target, pull-nearby,
+            throw-nearby, warp-to-player, arrows, fireballs
           reward: '154:5'
           drops: '335:5'
         supply9:
@@ -673,7 +691,7 @@ arenas:
       enabled: true
       protect: true
       entry-fee: ''
-      default-class: 'tank'
+      default-class: tank
       clear-wave-before-next: true
       clear-boss-before-next: true
       clear-wave-before-boss: true
@@ -815,7 +833,8 @@ arenas:
           monster: silverfish
           name: The_Silver_FEESH
           health: low
-          abilities: fetch-distant, pull-distant, pull-target, pull-nearby, throw-nearby, warp-to-player, arrows, fireballs
+          abilities: fetch-distant, pull-distant, pull-target, pull-nearby, throw-nearby,
+            warp-to-player, arrows, fireballs
           potions: speed:2
           reward: '369:2'
           drops: '335:5'
@@ -840,7 +859,8 @@ arenas:
               items: 276 17:1;20:5, 364:16
             Healer: 261, 262:128, 364:16
             Monk:
-              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316 0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
+              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316
+                0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
               items: 322:1:15, 369 20:20, 364:64, 332:400
           give-all-items: true
         boss3:
@@ -868,7 +888,8 @@ arenas:
           monster: angrywolf
           name: Destroyer_Doggo
           health: high
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant,
+            lightning-aura
           reward: '370:5'
           drops: '335:5'
         supply4:
@@ -909,7 +930,8 @@ arenas:
               armor: 313 2:10;1:4;3:1;4:1
               items: 368:64, 260:48, 262:64, 261
             Monk:
-              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308 0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
+              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308
+                0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 283 20:20;19:5, 332:128
           give-all-items: true
         boss6:
@@ -918,7 +940,8 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player,
+            lightning-aura
           reward: '322'
           drops: '335:5'
         supply6:
@@ -937,7 +960,8 @@ arenas:
           monster: witch
           name: Im_A_Witch
           health: veryhigh
-          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
+          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs,
+            root-target
           reward: '322:1:2'
           drops: '335:5'
         supply7:
@@ -956,7 +980,8 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: veryhigh
-          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+          abilities: chain-lightning, disorient-distant, warp-to-player, disorient-target,
+            shuffle-positions, disorient-nearby
           reward: 283:5, 41
           drops: '335:5'
         up4:
@@ -976,7 +1001,8 @@ arenas:
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
             Oddjob: 332:640, 322:1:5, 260:128, 262:128, 261 48:1
             Monk:
-              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312 0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312
+                0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
               items: 279 17:3;20:20;19:6, 364:128, 322:1:10
           give-all-items: true
         boss9:
@@ -1005,7 +1031,8 @@ arenas:
           monster: slimehuge
           name: Jimbos_Brother
           health: psycho
-          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs,
+            warp-to-player
           reward: '322:1:5'
     rewards:
       waves:
@@ -1074,7 +1101,7 @@ arenas:
       enabled: true
       protect: true
       entry-fee: ''
-      default-class: 'tank'
+      default-class: tank
       clear-wave-before-next: true
       clear-boss-before-next: true
       clear-wave-before-boss: true
@@ -1176,7 +1203,8 @@ arenas:
               items: 276 17:1;20:5, 364:16
             Healer: 261, 262:128, 364:16
             Monk:
-              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316 0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
+              armor: 314 0:1;1:2;3:1;4:1;5:1;6:1;7:1, 315 0:1;1:2;3:1;4:1;7:1, 316
+                0:1;1:2;3:1;4:1;7:1, 317 0:1;1:2;2:1;3:1;4:1;7:1;8:1
               items: 322:1:10, 369 20:20, 364:64, 332:400
           give-all-items: true
         boss3:
@@ -1185,7 +1213,8 @@ arenas:
           monster: angrywolf
           name: Destroyer_Doggo
           health: low
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant,
+            lightning-aura
           drops: '335:5'
         boss4:
           type: boss
@@ -1193,21 +1222,24 @@ arenas:
           monster: witch
           name: Im_A_Witch
           health: verylow
-          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs, root-target
+          abilities: arrows, shuffle-positions, disorient-distant, throw-nearby, fireballs,
+            root-target
         boss5:
           type: boss
           wave: 9
           monster: ghast
           name: The_One_Hit_Wonder
           health: psycho
-          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant, lightning-aura
+          abilities: fire-aura, throw-nearby, fireballs, root-target, throw-distant,
+            lightning-aura
         boss6:
           type: boss
           wave: 11
           monster: shulker
           name: Peek_A_Boo
           health: medium
-          abilities: throw-target, pull-nearby, fire-aura, fetch-distant, throw-nearby, lightning-aura, throw-distant, disorient-target
+          abilities: throw-target, pull-nearby, fire-aura, fetch-distant, throw-nearby,
+            lightning-aura, throw-distant, disorient-target
         boss7:
           type: boss
           wave: 13
@@ -1234,7 +1266,8 @@ arenas:
               armor: 313 1:4;2:10;3:1;4:1
               items: 368:64, 260:48, 261, 262:64
             Monk:
-              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308 0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
+              armor: 306 0:1;1:2;3:2;4:2;5:2;6:2;7:2, 307 0:1;1:2;3:2;4:2;7:2, 308
+                0:1;1:2;3:2;4:2;7:2, 309 0:1;1:2;2:2;3:2;4:2;7:2;8:2
               items: 364:64, 322:1:10, 283 20:20;19:5;17:2, 332:128
           give-all-items: true
         boss8:
@@ -1243,7 +1276,8 @@ arenas:
           monster: squid
           name: The_Death_Squid
           health: high
-          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player, lightning-aura
+          abilities: flood, arrows, fireballs, throw-nearby, disorient-nearby, warp-to-player,
+            lightning-aura
         boss9:
           type: boss
           wave: 17
@@ -1257,7 +1291,8 @@ arenas:
           monster: pig_zombie
           name: I_WANNA_POKE_YOU
           health: high
-          abilities: lightning-aura, disorient-distant, warp-to-player, disorient-target, shuffle-positions, disorient-nearby
+          abilities: lightning-aura, disorient-distant, warp-to-player, disorient-target,
+            shuffle-positions, disorient-nearby
           potions: speed:1
         up3:
           type: upgrade
@@ -1276,7 +1311,8 @@ arenas:
             Healer: 276 17:2, 261 48:2, 262:300, 364:32
             Oddjob: 322:1:5, 260:128, 332:640, 262:128, 261 48:1
             Monk:
-              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312 0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
+              armor: 310 0:3;1:3;3:3;4:3;5:3;6:3;7:3, 311 0:3;1:3;3:3;4:3;7:3, 312
+                0:3;1:3;3:3;4:3;7:3, 313 0:3;1:3;2:3;3:3;4:3;7:3;8:3
               items: 279 17:3;20:20;19:6, 364:128, 322:1:10
           give-all-items: true
         boss11:
@@ -1285,7 +1321,8 @@ arenas:
           monster: silverfish
           name: The_Silver_FEESH
           health: veryhigh
-          abilities: pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target, arrows, fetch-distant, fireballs, shuffle-positions, pull-nearby
+          abilities: pull-distant, obsidian-bomb, warp-to-player, throw-nearby, pull-target,
+            arrows, fetch-distant, fireballs, shuffle-positions, pull-nearby
           potions: speed:1
         boss12:
           type: boss
@@ -1293,7 +1330,8 @@ arenas:
           monster: slimehuge
           name: Jimbos_Brother
           health: veryhigh
-          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs, warp-to-player, lightning-aura
+          abilities: arrows, root-target, throw-nearby, disorient-nearby, fireballs,
+            warp-to-player, lightning-aura
         boss13:
           type: boss
           wave: 25

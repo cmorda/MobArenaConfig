@@ -14,7 +14,8 @@ join-arena-edit-mode: This arena is in edit mode.
 join-arena-permission: You don't have permission to join this arena.
 join-fee-required: 'Insufficient funds. Price: &c%&r'
 join-fee-paid: 'Price to join was: &c%&r'
-join-arena-is-running: This arena is already in progress. Use &e/ma spec (arena)&r to spectate!
+join-arena-is-running: This arena is already in progress. Use &e/ma spec (arena)&r
+  to spectate!
 join-already-playing: You are already playing!
 join-arg-needed: You must specify an arena.
 join-no-permission: You don't have permission to join any arenas.
@@ -25,7 +26,8 @@ join-store-inv-fail: Failed to store inventory. Try again.
 join-existing-inv-restored: Your old inventory items have been restored.
 join-player-joined: You joined the arena. Have fun!
 leave-not-playing: You are not in the arena.
-leave-not-ready: You did not ready up in time! Next time, ready up by clicking an iron block.
+leave-not-ready: You did not ready up in time! Next time, ready up by clicking an
+  iron block.
 leave-player-left: You left the arena. Thanks for playing!
 player-died: '&c%&r died!'
 golem-died: A friendly Golem has died!
